@@ -326,6 +326,11 @@ a:active {
   &--primary {
     background-color: $color-primary-light;
   }
+  &--lg {
+    @media (min-width: 769px) {
+      padding: $space-xl $space-xl $space-m;
+    }
+  }
 }
 
 /*

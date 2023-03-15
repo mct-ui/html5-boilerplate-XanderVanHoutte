@@ -168,6 +168,10 @@ a:active {
     ---
     Creates a horizontal row with padding
 */
+.o-row {
+  padding: 1.5rem 1.5rem 0;
+}
+
 /*
     Objects: Container
     ---

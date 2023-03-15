@@ -170,6 +170,7 @@ a:active {
 */
 .o-row {
   padding: 1.5rem 1.5rem 0;
+  display: flow-root;
 }
 .o-row--dark {
   background-color: hsl(198.0786026201, 10%, 30%);
@@ -177,7 +178,6 @@ a:active {
 .o-row--primary {
   background-color: hsl(198.0786026201, 100%, 50%);
 }
-
 /*
     Objects: Container
     ---

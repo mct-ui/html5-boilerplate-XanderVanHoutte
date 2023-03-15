@@ -319,11 +319,15 @@ a:active {
 
 .o-row {
   padding: $space-m $space-m 0;
+  display: flow-root;
   &--dark {
     background-color: $color-text-light;
   }
   &--primary {
     background-color: $color-primary-light;
+  }
+  &--lg {
+    
   }
 }
 

@@ -249,18 +249,12 @@ figure {
 
 ul,
 ol {
-  font-size: $ms-1;
-  line-height: calc($baseline * 2);
   padding: 0;
   list-style-position: inside;
 }
 
 li ul,
 li ol {
-  font-size: $ms-1;
-  line-height: calc($baseline * 2);
-  margin-top: $space-xs;
-  color: $color-text-lighter;
   margin-bottom: 0;
 }
 
@@ -273,6 +267,11 @@ blockquote {
 }
 
 figcaption {
+  font-size: $ms-1;
+  line-height: calc($baseline * 2);
+  margin-top: $space-xs;
+  color: $color-text-lighter;
+  margin-bottom: 0;
 }
 
 hr {
@@ -283,15 +282,20 @@ hr {
 }
 
 a {
+  color: $color-primary;
+  transition: all 0.1s ease-in-out;
 }
 
 a:hover {
+  color: $color-primary-light;
 }
 
 a:visited {
+  color: $color-primary;
 }
 
 a:active {
+  color: $color-primary-dark;
 }
 
 /*---------------------------------------/*

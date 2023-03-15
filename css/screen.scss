@@ -319,6 +319,12 @@ a:active {
 
 .o-row {
   padding: $space-m $space-m 0;
+  &--dark {
+    background-color: $color-text-light;
+  }
+  &--primary {
+    background-color: $color-primary-light;
+  }
 }
 
 /*

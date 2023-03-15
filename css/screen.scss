@@ -327,7 +327,6 @@ a:active {
     background-color: $color-primary-light;
   }
   &--lg {
-    
   }
 }
 
@@ -338,6 +337,8 @@ a:active {
 */
 
 .o-container {
+  max-width: 1em;
+  margin: 0 auto;
 }
 
 /*
